@@ -1,0 +1,34 @@
+.option {
+  display: inline-block;
+  text-align: center;
+  width: 230px;
+}
+
+.drag {
+  font-size: 0;
+}
+
+.current, .ending {
+  width: 40px;
+  font-size: 12px;
+}
+
+input[type=range] {
+  width: calc(100% - 80px);
+}
+
+.current, .ending, input[type=range] {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.button-group {
+}
+
+audio {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+
